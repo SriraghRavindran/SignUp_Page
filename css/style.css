@@ -1,0 +1,59 @@
+#heading{
+    font-family: monospace;
+    color:black;
+    font-size: 20px;
+}
+#form{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+.box{
+    border:solid rgba(black, black, black, 0.9) ;
+    
+        
+}
+#signin{
+    background-color: rgb(233, 230, 230);
+    padding: 5px;
+    margin-right: 900px;
+    margin-top: 10px;
+    text-align: center;
+    width: 40.5%;
+}
+#button{
+    background-color: rgb(29, 163, 96);
+    border: none;
+    padding: 16px 20px;
+    opacity: 0.9;
+    margin: 8px 0px;
+    width: 40.5%;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#button:hover{
+    opacity: 1;
+}
+input[type=text],input[type=password]{
+    border: none;
+    background-color: rgb(240, 235, 235);
+    width: 40.5%;
+    height: 40px;
+    display: inline-block;
+}
+hr{
+    margin-right: 900px;
+    margin-top: 40px;
+    border: 1px solid rgb(192, 192, 192);
+    
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
